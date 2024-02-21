@@ -1,0 +1,123 @@
+.contacts-section {
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37.5px;
+        text-align: center;
+        margin: 40px 0 24px 0;
+
+        @media screen  and (min-width: $bp-desktop){
+        font-family: 'Play';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 74.05px;
+        margin: 96px 0 48px 0;
+        }
+}
+
+&__text {
+        font-family: 'Roboto';
+        color: var(--color-primary-white);
+        padding: 42px 24px 24px 24px;
+        margin: 0;
+        text-align: center;
+@media screen and (min-width: $bp-tablet){
+        padding: 48px 75px 32px 74px;
+}
+
+                }
+        
+        
+&__container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+    
+    
+
+@media screen and (min-width: $bp-tablet){
+        flex-direction: row;
+        gap: 32px;
+        margin-bottom: 94px;
+                }
+        
+        }
+        
+        
+&__map {
+        margin: 0 -24px;
+        height: 232px;
+        border: none;
+        
+        @media screen and (min-width: $bp-tablet){
+        border-radius: 32px;
+        margin-left: 96px;
+        width: 600px;
+        height: 480px;
+                }
+        }
+
+
+&__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}        
+&__content {
+        border-radius: 32px;
+        background-color: var(--color-primary-dark);
+        width: 320px;
+        height: 434px;
+        flex-shrink: 0;
+        margin: auto;
+
+        @media screen and (min-width: $bp-tablet){
+        width: 423px;
+        height: 481px;
+        }
+        
+                }
+
+
+&__form-field {
+    margin-bottom: 16px;
+
+}   
+
+
+&__button {
+    color: var(--color-primary-white);
+    background: var(--color-primary-light);
+    border-radius: 32px;
+    cursor: pointer;
+    border: 2px solid var(--color-primary-light);
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 8px;
+
+@media screen and (min-width: $bp-tablet) {
+        font-size: 18px;
+        padding: 16px 32px;
+       
+}
+}
+
+&__button:hover {
+    color: var(--color-primary-dark);
+    background: var(--color-primary-white);
+    border: 2px solid var(--color-primary-light);
+}
+}
+        
+
+
+
+
+
+

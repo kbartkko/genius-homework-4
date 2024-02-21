@@ -1,0 +1,112 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    @media screen and (min-width: $bp-desktop) {
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(5px);
+        padding: 32px 0;
+    }
+  
+
+   &__navigation {
+    padding-top: 16px;
+    gap: 40px;
+    display: flex;
+
+    @media screen and (min-width: $bp-desktop) {
+        padding-top: 0;
+    }
+
+   }
+
+   &__bar {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+   flex-grow: 1;
+   font-family: 'Roboto';
+ }
+
+
+ &__logo {
+width: 57px;
+height: 30px;
+
+@media screen and (min-width: $bp-desktop){
+    width: 82px;
+    height: 42px;
+}
+
+ }
+
+&__list {
+    display: none;
+
+     @media screen and (min-width: $bp-desktop) {
+        display: flex;
+        align-items: center;
+        gap: 56px;
+        flex-grow: 1;
+        justify-content: center;
+        text-decoration: none;
+     }
+ }
+
+&__burger {
+    padding: 0;
+    background-color: transparent;
+    border: transparent;
+    fill: var(--color-primary-white);
+    width: 24px;
+    height: 24px;
+@media screen and (min-width: $bp-desktop) {
+        display: none;
+    }
+}
+
+ &__link {
+     text-decoration: none;
+     color: var(--color-primary-dark);
+     transition: color 0.2s;
+ }
+
+ &__link:hover {
+     color: var(--color-primary-light);
+ }
+
+ &__socials {
+     height: 32px;
+     width: 32px;
+ }
+
+ &__icons {
+     display: flex;
+     gap: 24px;
+     cursor: pointer;
+
+    @media screen and (max-width: $bp-desktop) {
+        display: none;}
+
+ }
+
+ &__svg {
+     fill: var(--color-primary-dark);
+ }
+
+ &__svg:hover {
+     fill: var(--color-primary-light);
+ }
+}
+
+
+
+
+
+
+
+
+

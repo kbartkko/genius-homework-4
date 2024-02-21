@@ -1,0 +1,16 @@
+.form-terms {
+    color: var(--color-secondary-light);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+
+
+    &__link {
+        color: var(--color-secondary-light);
+        text-decoration: underline;
+    }
+
+}

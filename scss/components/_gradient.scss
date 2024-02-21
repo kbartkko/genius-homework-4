@@ -1,0 +1,12 @@
+.background-gradient {
+    background-image: url(../images/advantages-gradient.png);
+    background-position: top, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+    @media screen and (min-width: $bp-desktop) {
+         margin-top: 208px;
+    }
+
+}

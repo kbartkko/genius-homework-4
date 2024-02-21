@@ -1,0 +1,114 @@
+.about {
+
+    &__container {
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            gap: 40px;
+            justify-content: space-between;
+          
+
+            @media screen and (min-width: $bp-desktop) {
+                padding-top: 30px;
+                margin-bottom: 104px;
+                
+            }
+        }
+    
+        &__content {
+            width: 100%;
+
+            @media screen and (min-width: $bp-desktop) {
+            // padding-top: 40px;
+            width: 100%;
+            }
+
+            
+        }
+    
+        &__title {
+            font-family: Roboto;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                width: 100%;
+                max-width: 264px;
+
+
+                @media screen and (min-width: $bp-desktop) {
+                    font-family: 'Play';
+                        font-weight: 700;
+                        font-size: 64px;
+                        margin-bottom: 40px;
+                        margin-top: 0;
+                        max-width: 529px;
+                        width: 100%;
+                }
+            
+        }
+    
+        &__text {
+            position: relative;
+            font-family: Roboto;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 100%;
+
+                @media screen and (min-width: $bp-desktop) {
+                font-family: 'Roboto';
+                    font-size: 22px;
+                    line-height: 172%;
+                    font-weight: 400;
+                    margin-bottom: 0px;
+                    max-width: 674px;
+                    width: 100%;
+                }
+        }
+    
+        &__image img {
+            max-width: 327px;
+            height: 327px;
+            border-radius: 327px;
+        }
+    
+        &__image {
+            display: none;
+
+            @media screen and (min-width: $bp-desktop) {
+                display: block;
+                position: relative;
+            }
+           
+        }
+    
+    
+        &__image-before {
+            position: absolute;
+            right: 160px;
+    
+        }
+    
+    
+        &__image-after {
+            position: absolute;
+            top: 367px;
+            right: -10px;
+    
+        }
+
+//         &__darkblue-star {
+//          position: absolute;
+//          fill: var(--color-primary-dark);
+//          height: 40px;
+//          width: 40px;
+//          right: 23px;
+//          bottom: -20%;
+//            @media  screen and (min-width: $bp-desktop) {
+//             display: none;
+//            }
+
+//         }
+}

@@ -1,0 +1,41 @@
+.blue-star {
+    width: 40px;
+    height: 40px;
+    fill: var(--color-primary-light);
+    position: absolute;
+    top: 32px;
+    animation: spin 1s infinite linear;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+
+
+.grey-star {
+    height: 16px;
+    width: 16px;
+    fill: var(--color-secondary-light);
+    position: absolute;
+    top: 270px;
+    animation: spin 1s infinite linear;
+
+}
+
+.darkblue-star {
+    height: 64px;
+    width: 64px;
+    fill: var(--color-primary-dark);
+    position: absolute;
+    right: 315px;
+    top: 363px;
+    animation: spin 1s infinite linear;
+}

@@ -1,0 +1,132 @@
+.main-section {
+   padding-top: 71px;
+   padding-bottom: 56px;
+    background-image: linear-gradient(57deg, #FFF 20.92%, rgba(255, 255, 255, 0.78) 44.46%, rgba(255, 255, 255, 0.20) 58.9%, rgba(255, 255, 255, 0.00) 72.45%),
+        url(../images/main-title.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  
+
+    @media screen and (min-width: $bp-desktop) {
+        padding: 125px 0;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+            background-image: linear-gradient(57deg, #FFF 20.92%, rgba(255, 255, 255, 0.78) 44.46%, rgba(255, 255, 255, 0.20) 58.9%, rgba(255, 255, 255, 0.00) 72.45%),
+                    url(../images/main-title@2x.jpg);
+        }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+            @media  screen and (min-width: $bp-desktop) {
+                padding-left: 120px;
+                max-width: 530px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+
+            }
+        }
+    
+    
+        &__text {
+            text-align: center;
+            margin-top: 0;
+            font-family: "Roboto";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+               
+            
+            @media screen and (min-width: $bp-desktop ) {
+                text-align: left;
+                font-size: 18px;
+            }
+        }
+    
+        &__title {
+            font-family: Roboto;
+            color: var(--color-primary-light);
+            font-size: 54px;
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 81.5%;
+            margin-bottom: 32px;
+            margin-top: 0;
+
+           @media screen and (min-width: $bp-desktop) {
+            font-family: 'Play';
+            font-size: 140px;
+            text-align: left;
+            margin-bottom: 40px;
+           }
+        }
+    
+        &__order {
+            max-width: 240px;
+            display: flex;
+            flex-direction: column;
+
+            @media screen and (min-width: $bp-desktop) {
+                max-width: 240px;
+            }
+        }
+
+    
+    
+        &__buttom {
+            font-family: 'Roboto';
+            color: var(--color-primary-white);
+            background: var(--color-primary-light);
+            border-radius: 32px;
+            cursor: pointer;
+            border: 2px solid var(--color-primary-light);
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 14px;
+            margin-left: 16px;
+            margin-right: 16px;
+
+            @media screen and (min-width: $bp-desktop) {
+                font-family: 'Roboto';
+                border: 2px solid var(--color-primary-light);
+                font-size: 16px;
+                font-weight: 600;
+                padding: 16px 32px;
+             
+
+
+
+            }
+
+
+        }
+    
+        &__buttom:hover {
+            color: var(--color-primary-dark);
+            background: var(--color-primary-white);
+            border: 2px solid var(--color-primary-light);
+        }
+    
+    
+        &__paragraph{
+            font-family: Roboto;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            color: var(--color-secondary-dark);
+            text-align: center;
+            margin: 0;
+        }
+}
+

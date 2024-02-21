@@ -1,0 +1,44 @@
+@import './utils/fonts';
+@import './utils/variables';
+
+/* Base */
+@import './base';
+
+/* Link styles */
+@import './components/link';
+
+/* Container style */
+@import './components/container';
+
+/* Header */
+@import './layouts/header';
+@import './layouts/mobile-menu';
+
+/* Section Main */
+@import './layouts/main';
+
+/* Section about */
+@import './layouts/about';
+@import './utils/star';
+@import './utils/texts';
+
+/* ADVANTAGES section */
+@import './components/gradient';
+@import './layouts/advantages';
+
+/* Proceders section */
+@import './layouts/procedures';
+@import './components/card';
+@import './components/pagination';
+
+/* Contacts section */
+@import './layouts/contacts';
+@import './components/input';
+@import './components/terms';
+
+/* Footter section */
+@import './layouts/footer';
+
+
+/* MODAL WIEV */
+@import './components/modal';

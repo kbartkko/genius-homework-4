@@ -1,0 +1,35 @@
+.procedurs-card {
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 4px 110px;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(180deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.73) 84.61%, #011c44 101.39%);
+    position: relative;
+    overflow: hidden;
+    
+
+    &__image {
+        border-radius: 4px 120px;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        }
+    
+    
+    &__name {
+            margin-bottom: 32px;
+            font-weight: 400;
+            font-family: 'Roboto';
+            color: var(--color-primary-white);
+            text-align: center;
+            font-size: 22px;
+            line-height: 118%;
+            margin: 372px auto 32px auto;
+    
+        }
+}
+

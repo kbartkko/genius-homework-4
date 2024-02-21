@@ -1,0 +1,114 @@
+.procedurs {
+    margin: 96px auto 48px auto;
+    
+    &__title {
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 32px;
+            text-align: center;
+
+            @media screen and (min-width: $bp-desktop) {
+            font-family: 'Play';
+            font-weight: 700;
+            font-size: 64px;
+        }
+    }
+
+    &__list {
+        margin-bottom: 32px;
+        width: 345px;
+    }
+    
+    
+    &__carousel {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    
+    
+    &__svg {
+            height: 16px;
+            width: 16px;
+        }
+    
+    &__container {
+        overflow: hidden;
+   }
+
+     &__item {
+        position: relative;
+        border-radius: 4px 120px;
+        max-width: 344px;
+        height: 456px;
+        flex-shrink: 0;
+        background: linear-gradient(180deg, rgba(1, 28, 68, 0.00) 48.53%, rgba(1, 28, 68, 0.73) 84.61%, #011C44 101.39%);
+        // transition: transform .3s;
+     }   
+    
+    &__navigation-prev {
+        display: none;
+        flex-shrink: 0;
+        align-items: center;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 1px solid black;
+        fill: black;
+        justify-content: center;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: flex;
+           
+        }
+
+    }
+    &__navigation-prev:hover {
+            fill: var(--color-primary-white);
+            background-color: var(--color-primary-light);
+            border: transparent;
+        }
+    
+    &__navigation-next {
+        display: none;
+        transform: rotate(180deg);
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 1px solid black;
+        fill: black;
+            
+
+          @media screen and (min-width: $bp-tablet) {
+                display: flex;
+                
+                    }
+        }
+
+
+    &__navigation-next:hover {
+            fill: var(--color-primary-white);
+            background-color: var(--color-primary-light);
+            border: transparent;
+         }
+    
+    &__slider .swiper-container {
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            overflow: hidden;
+            list-style: none;
+            padding: 0;
+        }
+    
+}
+
